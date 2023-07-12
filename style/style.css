@@ -1,0 +1,48 @@
+@import url("./header.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --azul: #0A3769;
+    --azul-deep-saphire: #061F3D;
+    --font-manrope: 'Manrope', sans-serif;
+}
+
+body {
+    background-color: var(--branco);
+}
+
+.quemsomos {
+    text-align: center;
+    font-family: var(--font-manrope);
+    font-weight: 500;
+    margin-top: 81px;
+}
+
+.titulo {
+    padding: 0% 20%;
+    font-size: 20px;
+}
+.titulo_principal {
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--azul-deep-saphire);
+    padding: 24px 30%;
+}
+
+.paragrafo {
+    font-family: var(--font-manrope);
+    font-size: 18px;
+    color: #444444;
+    padding: 0% 25%;
+}
+
+.botao_saiba_mais {
+    display: flex;
+    position: static;
+    justify-content: center;
+    border: 2px solid var(--azul);
+    width: 50%;
+    border-radius: 8px;
+    text-decoration: none;
+}
